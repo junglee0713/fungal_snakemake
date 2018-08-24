@@ -1,0 +1,5 @@
+PROJECT_DIR: "/scr1/users/leej39/test_fungal"
+ADMIN_EMAIL: "junglee0713@gmail.com"
+JOINED_FASTA_DIR: "/scr1/users/leej39/fungal/output/joined_fasta"
+
+SAMPLE_FP: "SampleID.txt"
