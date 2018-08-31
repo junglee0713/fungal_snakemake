@@ -5,3 +5,5 @@ def get_sample(sample_fp):
    for line in lines:
       samples.append(line)
    return(samples)
+
+
