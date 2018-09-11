@@ -1,5 +1,7 @@
-PROJECT_DIR: "/scr1/users/leej39/test_fungal"
 ADMIN_EMAIL: "junglee0713@gmail.com"
+PROJECT_DIR: "/scr1/users/leej39/fungal"
 JOINED_FASTA_DIR: "/scr1/users/leej39/fungal/output/joined_fasta"
-
+USEARCH_OUT_DIR: "/scr1/users/leej39/fungal/output/usearch_out"
+USEARCH_ID_CUT: 0.8
+USEARCH_FUNGAL_DB_DIR: "/scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta"
 SAMPLE_FP: "SampleID.txt"

@@ -1,0 +1,888 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 80
+Job counts:
+	count	jobs
+	1	all
+	330	make_ug
+	331
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.103.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.103.Sb.ugout
+    jobid: 219
+    wildcards: sample=D.Screening.103.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.103.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.103.Sb.ugout --top_hits_only
+      
+Submitted job 219 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.403.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.403.Ctr.ugout
+    jobid: 148
+    wildcards: sample=D7.403.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.403.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.403.Ctr.ugout --top_hits_only
+      
+Submitted job 148 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.410.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.410.Ctr.ugout
+    jobid: 330
+    wildcards: sample=D7.410.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.410.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.410.Ctr.ugout --top_hits_only
+      
+Submitted job 330 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.208.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.208.Amox.ugout
+    jobid: 72
+    wildcards: sample=D7.208.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.208.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.208.Amox.ugout --top_hits_only
+      
+Submitted job 72 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.404.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.404.Ctr.ugout
+    jobid: 186
+    wildcards: sample=D14.404.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.404.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.404.Ctr.ugout --top_hits_only
+      
+Submitted job 186 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.306.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.306.Sb.Amox.ugout
+    jobid: 41
+    wildcards: sample=D.Screening.306.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.306.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.306.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 41 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.401.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.401.Ctr.ugout
+    jobid: 92
+    wildcards: sample=D14.401.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.401.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.401.Ctr.ugout --top_hits_only
+      
+Submitted job 92 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.310.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.310.Sb.Amox.ugout
+    jobid: 128
+    wildcards: sample=D0.310.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.310.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.310.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 128 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.309.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.309.Sb.Amox.ugout
+    jobid: 34
+    wildcards: sample=D14.309.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.309.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.309.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 34 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.107.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.107.Sb.ugout
+    jobid: 175
+    wildcards: sample=D14.107.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.107.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.107.Sb.ugout --top_hits_only
+      
+Submitted job 175 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.304.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.304.Sb.Amox.ugout
+    jobid: 8
+    wildcards: sample=D10.304.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.304.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.304.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 8 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.202.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.202.Amox.ugout
+    jobid: 101
+    wildcards: sample=D0.202.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.202.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.202.Amox.ugout --top_hits_only
+      
+Submitted job 101 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.207.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.207.Amox.ugout
+    jobid: 19
+    wildcards: sample=D0.207.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.207.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.207.Amox.ugout --top_hits_only
+      
+Submitted job 19 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.412.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.412.Ctr.ugout
+    jobid: 140
+    wildcards: sample=D7.412.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.412.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.412.Ctr.ugout --top_hits_only
+      
+Submitted job 140 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.412.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.412.Ctr.ugout
+    jobid: 238
+    wildcards: sample=D0.412.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.412.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.412.Ctr.ugout --top_hits_only
+      
+Submitted job 238 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.403.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.403.Ctr.ugout
+    jobid: 302
+    wildcards: sample=D10.403.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.403.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.403.Ctr.ugout --top_hits_only
+      
+Submitted job 302 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.109.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.109.Sb.ugout
+    jobid: 68
+    wildcards: sample=D14.109.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.109.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.109.Sb.ugout --top_hits_only
+      
+Submitted job 68 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.307.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.307.Sb.Amox.ugout
+    jobid: 272
+    wildcards: sample=D14.307.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.307.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.307.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 272 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.311.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.311.Sb.Amox.ugout
+    jobid: 194
+    wildcards: sample=D0.311.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.311.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.311.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 194 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.308.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.308.Sb.Amox.ugout
+    jobid: 199
+    wildcards: sample=D7.308.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.308.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.308.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 199 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.102.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.102.Sb.ugout
+    jobid: 313
+    wildcards: sample=D10.102.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.102.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.102.Sb.ugout --top_hits_only
+      
+Submitted job 313 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.112.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.112.Sb.ugout
+    jobid: 98
+    wildcards: sample=D14.112.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.112.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.112.Sb.ugout --top_hits_only
+      
+Submitted job 98 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.204.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.204.Amox.ugout
+    jobid: 246
+    wildcards: sample=D14.204.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.204.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.204.Amox.ugout --top_hits_only
+      
+Submitted job 246 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.303.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.303.Sb.Amox.ugout
+    jobid: 47
+    wildcards: sample=D14.303.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.303.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.303.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 47 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.208.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.208.Amox.ugout
+    jobid: 134
+    wildcards: sample=D14.208.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.208.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.208.Amox.ugout --top_hits_only
+      
+Submitted job 134 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.108.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.108.Sb.ugout
+    jobid: 295
+    wildcards: sample=D.Screening.108.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.108.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.108.Sb.ugout --top_hits_only
+      
+Submitted job 295 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.205.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.205.Amox.ugout
+    jobid: 105
+    wildcards: sample=D14.205.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.205.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.205.Amox.ugout --top_hits_only
+      
+Submitted job 105 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.103.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.103.Sb.ugout
+    jobid: 132
+    wildcards: sample=D10.103.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.103.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.103.Sb.ugout --top_hits_only
+      
+Submitted job 132 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.402.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.402.Ctr.ugout
+    jobid: 273
+    wildcards: sample=D7.402.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.402.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.402.Ctr.ugout --top_hits_only
+      
+Submitted job 273 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.308.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.308.Sb.Amox.ugout
+    jobid: 244
+    wildcards: sample=D.Screening.308.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.308.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.308.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 244 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.310.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D3.310.Sb.Amox.ugout
+    jobid: 188
+    wildcards: sample=D3.310.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.310.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D3.310.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 188 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.306.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.306.Sb.Amox.ugout
+    jobid: 87
+    wildcards: sample=D10.306.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.306.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.306.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 87 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.410.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.410.Ctr.ugout
+    jobid: 107
+    wildcards: sample=D0.410.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.410.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.410.Ctr.ugout --top_hits_only
+      
+Submitted job 107 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.408.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.408.Ctr.ugout
+    jobid: 84
+    wildcards: sample=D7.408.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.408.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.408.Ctr.ugout --top_hits_only
+      
+Submitted job 84 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.208.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.208.Amox.ugout
+    jobid: 61
+    wildcards: sample=D10.208.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.208.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.208.Amox.ugout --top_hits_only
+      
+Submitted job 61 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.404.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.404.Ctr.ugout
+    jobid: 172
+    wildcards: sample=D7.404.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.404.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.404.Ctr.ugout --top_hits_only
+      
+Submitted job 172 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.307.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.307.Sb.Amox.ugout
+    jobid: 112
+    wildcards: sample=D.Screening.307.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.307.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.307.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 112 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.111.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.111.Sb.ugout
+    jobid: 299
+    wildcards: sample=D14.111.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.111.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.111.Sb.ugout --top_hits_only
+      
+Submitted job 299 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.304.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.304.Sb.Amox.ugout
+    jobid: 12
+    wildcards: sample=D0.304.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.304.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.304.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 12 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.213.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.213.Amox.ugout
+    jobid: 259
+    wildcards: sample=D14.213.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.213.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.213.Amox.ugout --top_hits_only
+      
+Submitted job 259 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D21.307.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D21.307.Sb.Amox.ugout
+    jobid: 283
+    wildcards: sample=D21.307.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D21.307.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D21.307.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 283 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.405.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.405.Ctr.ugout
+    jobid: 122
+    wildcards: sample=D7.405.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.405.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.405.Ctr.ugout --top_hits_only
+      
+Submitted job 122 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.306.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.306.Sb.Amox.ugout
+    jobid: 214
+    wildcards: sample=D14.306.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.306.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.306.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 214 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.102.sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.102.sb.ugout
+    jobid: 296
+    wildcards: sample=D0.102.sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.102.sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.102.sb.ugout --top_hits_only
+      
+Submitted job 296 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.106.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.106.Sb.ugout
+    jobid: 54
+    wildcards: sample=D10.106.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.106.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.106.Sb.ugout --top_hits_only
+      
+Submitted job 54 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.205.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.205.Amox.ugout
+    jobid: 202
+    wildcards: sample=D10.205.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.205.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.205.Amox.ugout --top_hits_only
+      
+Submitted job 202 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.105.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.105.Sb.ugout
+    jobid: 301
+    wildcards: sample=D10.105.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.105.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.105.Sb.ugout --top_hits_only
+      
+Submitted job 301 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.412.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.412.Ctr.ugout
+    jobid: 334
+    wildcards: sample=D10.412.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.412.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.412.Ctr.ugout --top_hits_only
+      
+Submitted job 334 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.101.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.101.Sb.ugout
+    jobid: 306
+    wildcards: sample=D10.101.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.101.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.101.Sb.ugout --top_hits_only
+      
+Submitted job 306 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.401.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D3.401.Ctr.ugout
+    jobid: 207
+    wildcards: sample=D3.401.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.401.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D3.401.Ctr.ugout --top_hits_only
+      
+Submitted job 207 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.411.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D3.411.Ctr.ugout
+    jobid: 307
+    wildcards: sample=D3.411.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.411.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D3.411.Ctr.ugout --top_hits_only
+      
+Submitted job 307 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.411.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.411.Ctr.ugout
+    jobid: 289
+    wildcards: sample=D10.411.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.411.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.411.Ctr.ugout --top_hits_only
+      
+Submitted job 289 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.210.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.210.Amox.ugout
+    jobid: 80
+    wildcards: sample=D0.210.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.210.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.210.Amox.ugout --top_hits_only
+      
+Submitted job 80 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.213.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.213.Amox.ugout
+    jobid: 106
+    wildcards: sample=D10.213.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.213.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.213.Amox.ugout --top_hits_only
+      
+Submitted job 106 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.302.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.302.Sb.Amox.ugout
+    jobid: 255
+    wildcards: sample=D14.302.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.302.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.302.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 255 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.406.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.406.Ctr.ugout
+    jobid: 234
+    wildcards: sample=D7.406.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.406.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.406.Ctr.ugout --top_hits_only
+      
+Submitted job 234 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.308.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.308.Sb.Amox.ugout
+    jobid: 189
+    wildcards: sample=D0.308.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.308.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.308.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 189 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.207.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.207.Amox.ugout
+    jobid: 2
+    wildcards: sample=D14.207.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.207.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.207.Amox.ugout --top_hits_only
+      
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.208.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D3.208.Amox.ugout
+    jobid: 303
+    wildcards: sample=D3.208.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.208.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D3.208.Amox.ugout --top_hits_only
+      
+Submitted job 303 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.203.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.203.Amox.ugout
+    jobid: 15
+    wildcards: sample=D14.203.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.203.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.203.Amox.ugout --top_hits_only
+      
+Submitted job 15 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.103.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.103.Sb.ugout
+    jobid: 77
+    wildcards: sample=D14.103.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.103.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.103.Sb.ugout --top_hits_only
+      
+Submitted job 77 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.411.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.411.Ctr.ugout
+    jobid: 235
+    wildcards: sample=D7.411.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.411.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.411.Ctr.ugout --top_hits_only
+      
+Submitted job 235 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.307.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.307.Sb.Amox.ugout
+    jobid: 88
+    wildcards: sample=D7.307.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.307.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.307.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 88 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.310.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.310.Sb.Amox.ugout
+    jobid: 95
+    wildcards: sample=D7.310.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.310.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.310.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 95 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.303.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.303.Sb.Amox.ugout
+    jobid: 139
+    wildcards: sample=D.Screening.303.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.303.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.303.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 139 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.311.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.311.Sb.Amox.ugout
+    jobid: 269
+    wildcards: sample=D14.311.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.311.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.311.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 269 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.304.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.304.Sb.Amox.ugout
+    jobid: 201
+    wildcards: sample=D7.304.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.304.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.304.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 201 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.308.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.308.Sb.Amox.ugout
+    jobid: 315
+    wildcards: sample=D14.308.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.308.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.308.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 315 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.303.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.303.Sb.Amox.ugout
+    jobid: 5
+    wildcards: sample=D7.303.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.303.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.303.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.401.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.401.Ctr.ugout
+    jobid: 312
+    wildcards: sample=D0.401.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.401.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.401.Ctr.ugout --top_hits_only
+      
+Submitted job 312 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.411.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D0.411.Ctr.ugout
+    jobid: 316
+    wildcards: sample=D0.411.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D0.411.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D0.411.Ctr.ugout --top_hits_only
+      
+Submitted job 316 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.201.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.201.Amox.ugout
+    jobid: 237
+    wildcards: sample=D14.201.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.201.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.201.Amox.ugout --top_hits_only
+      
+Submitted job 237 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.305.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.305.Sb.Amox.ugout
+    jobid: 141
+    wildcards: sample=D14.305.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.305.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.305.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 141 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.104.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.104.Sb.ugout
+    jobid: 193
+    wildcards: sample=D14.104.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.104.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.104.Sb.ugout --top_hits_only
+      
+Submitted job 193 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.108.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.108.Sb.ugout
+    jobid: 121
+    wildcards: sample=D14.108.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.108.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.108.Sb.ugout --top_hits_only
+      
+Submitted job 121 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.303.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D3.303.Sb.Amox.ugout
+    jobid: 69
+    wildcards: sample=D3.303.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D3.303.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D3.303.Sb.Amox.ugout --top_hits_only
+      
+Submitted job 69 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.408.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.408.Ctr.ugout
+    jobid: 263
+    wildcards: sample=D10.408.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.408.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.408.Ctr.ugout --top_hits_only
+      
+Submitted job 263 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.101.Sb.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D14.101.Sb.ugout
+    jobid: 275
+    wildcards: sample=D14.101.Sb
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D14.101.Sb.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D14.101.Sb.ugout --top_hits_only
+      
+Submitted job 275 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.410.Ctr.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D10.410.Ctr.ugout
+    jobid: 248
+    wildcards: sample=D10.410.Ctr
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D10.410.Ctr.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D10.410.Ctr.ugout --top_hits_only
+      
+Submitted job 248 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.212.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D.Screening.212.Amox.ugout
+    jobid: 81
+    wildcards: sample=D.Screening.212.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D.Screening.212.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D.Screening.212.Amox.ugout --top_hits_only
+      
+Submitted job 81 with external jobid 'removed environment variable LD_LIBRARY_PATH from submit environment - it is considered a security issue'.

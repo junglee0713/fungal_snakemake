@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	make_ug
+	1
+
+rule make_ug:
+    input: /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.304.Sb.Amox.fasta
+    output: /scr1/users/leej39/fungal/output/usearch_out/D7.304.Sb.Amox.ugout
+    jobid: 0
+    wildcards: sample=D7.304.Sb.Amox
+
+
+      vsearch --usearch_global /scr1/users/leej39/fungal/output/joined_fasta/joined.D7.304.Sb.Amox.fasta --id 0.8 --db /scr1/users/leej39/fungal/output/FUNGAL_SILVA_132_SSU_0.9.fasta --blast6out /scr1/users/leej39/fungal/output/usearch_out/D7.304.Sb.Amox.ugout --top_hits_only
+      
