@@ -1,6 +1,6 @@
 ###===
-### 
-###
+### Rules for fungal search 
+###===
 
 import configparser
 import yaml
